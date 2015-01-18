@@ -49,7 +49,7 @@
                             </value>
                             <next>
                               <block type="variables_set" id="1296" inline="true">
-                                <field name="VAR">turn 2</field>
+                                <field name="VAR">turn2</field>
                                 <value name="VALUE">
                                   <block type="math_number" id="1332">
                                     <field name="NUM">1700</field>
@@ -103,7 +103,7 @@
                                                   <block type="robot_delay" id="270" inline="true">
                                                     <value name="DELAY">
                                                       <block type="variables_get" id="1345">
-                                                        <field name="VAR">turn 2</field>
+                                                        <field name="VAR">turn2</field>
                                                       </block>
                                                     </value>
                                                     <next>
