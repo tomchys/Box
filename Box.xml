@@ -228,7 +228,7 @@
                                                                                                                           <block type="controls_repeat" id="1743" inline="true">
                                                                                                                             <value name="TIMES">
                                                                                                                               <block type="math_number" id="1823">
-                                                                                                                                <field name="NUM">3</field>
+                                                                                                                                <field name="NUM">1</field>
                                                                                                                               </block>
                                                                                                                             </value>
                                                                                                                             <statement name="DO">
@@ -279,9 +279,6 @@
                                                                                                                                                         <field name="NUM">5</field>
                                                                                                                                                       </block>
                                                                                                                                                     </value>
-                                                                                                                                                    <next>
-                                                                                                                                                      <block type="movement_stop" id="1754"></block>
-                                                                                                                                                    </next>
                                                                                                                                                   </block>
                                                                                                                                                 </next>
                                                                                                                                               </block>
@@ -294,6 +291,9 @@
                                                                                                                                 </next>
                                                                                                                               </block>
                                                                                                                             </statement>
+                                                                                                                            <next>
+                                                                                                                              <block type="movement_stop" id="1754"></block>
+                                                                                                                            </next>
                                                                                                                           </block>
                                                                                                                         </next>
                                                                                                                       </block>
