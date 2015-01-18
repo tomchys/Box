@@ -3,7 +3,7 @@
     <field name="VAR">turn</field>
     <value name="VALUE">
       <block type="math_number" id="341">
-        <field name="NUM">1500</field>
+        <field name="NUM">1650</field>
       </block>
     </value>
     <next>
