@@ -81,7 +81,46 @@
                                   </block>
                                 </statement>
                                 <next>
-                                  <block type="movement_stop" id="198"></block>
+                                  <block type="movement_stop" id="198">
+                                    <next>
+                                      <block type="controls_repeat" id="267" inline="true">
+                                        <value name="TIMES">
+                                          <block type="variables_get" id="268">
+                                            <field name="VAR">sides</field>
+                                          </block>
+                                        </value>
+                                        <statement name="DO">
+                                          <block type="movement_right" id="294">
+                                            <next>
+                                              <block type="robot_delay" id="270" inline="true">
+                                                <value name="DELAY">
+                                                  <block type="variables_get" id="271">
+                                                    <field name="VAR">turn</field>
+                                                  </block>
+                                                </value>
+                                                <next>
+                                                  <block type="movement_forward" id="272">
+                                                    <next>
+                                                      <block type="robot_delay" id="273" inline="true">
+                                                        <value name="DELAY">
+                                                          <block type="variables_get" id="274">
+                                                            <field name="VAR">forward</field>
+                                                          </block>
+                                                        </value>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </statement>
+                                        <next>
+                                          <block type="movement_stop" id="284"></block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
                                 </next>
                               </block>
                             </next>
