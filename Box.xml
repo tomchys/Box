@@ -1,93 +1,102 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="variables_set" id="389" inline="true" x="90" y="-8">
-    <field name="VAR">turn</field>
-    <value name="VALUE">
-      <block type="math_number" id="341">
-        <field name="NUM">1650</field>
-      </block>
-    </value>
+  <block type="oled_cleardisplay" id="490" x="31" y="-22">
     <next>
-      <block type="variables_set" id="384" inline="true">
-        <field name="VAR">forward</field>
-        <value name="VALUE">
-          <block type="math_number" id="334">
-            <field name="NUM">1500</field>
-          </block>
-        </value>
+      <block type="oled_drawtext" id="499">
+        <field name="TEXT">Box</field>
         <next>
-          <block type="movement_left" id="29">
+          <block type="variables_set" id="389" inline="true">
+            <field name="VAR">turn</field>
+            <value name="VALUE">
+              <block type="math_number" id="341">
+                <field name="NUM">1650</field>
+              </block>
+            </value>
             <next>
-              <block type="robot_delay" id="286" inline="true">
-                <value name="DELAY">
-                  <block type="variables_get" id="423">
-                    <field name="VAR">turn</field>
+              <block type="variables_set" id="384" inline="true">
+                <field name="VAR">forward</field>
+                <value name="VALUE">
+                  <block type="math_number" id="334">
+                    <field name="NUM">1500</field>
                   </block>
                 </value>
                 <next>
-                  <block type="movement_forward" id="110">
+                  <block type="movement_left" id="29">
                     <next>
-                      <block type="robot_delay" id="284" inline="true">
+                      <block type="robot_delay" id="286" inline="true">
                         <value name="DELAY">
-                          <block type="variables_get" id="408">
-                            <field name="VAR">forward</field>
+                          <block type="variables_get" id="423">
+                            <field name="VAR">turn</field>
                           </block>
                         </value>
                         <next>
-                          <block type="movement_left" id="59">
+                          <block type="movement_forward" id="110">
                             <next>
-                              <block type="robot_delay" id="281" inline="true">
+                              <block type="robot_delay" id="284" inline="true">
                                 <value name="DELAY">
-                                  <block type="variables_get" id="451">
-                                    <field name="VAR">turn</field>
+                                  <block type="variables_get" id="408">
+                                    <field name="VAR">forward</field>
                                   </block>
                                 </value>
                                 <next>
-                                  <block type="movement_forward" id="100">
+                                  <block type="movement_left" id="59">
                                     <next>
-                                      <block type="robot_delay" id="279" inline="true">
+                                      <block type="robot_delay" id="281" inline="true">
                                         <value name="DELAY">
-                                          <block type="variables_get" id="430">
-                                            <field name="VAR">forward</field>
+                                          <block type="variables_get" id="451">
+                                            <field name="VAR">turn</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="movement_left" id="49">
+                                          <block type="movement_forward" id="100">
                                             <next>
-                                              <block type="robot_delay" id="277" inline="true">
+                                              <block type="robot_delay" id="279" inline="true">
                                                 <value name="DELAY">
-                                                  <block type="variables_get" id="458">
-                                                    <field name="VAR">turn</field>
+                                                  <block type="variables_get" id="430">
+                                                    <field name="VAR">forward</field>
                                                   </block>
                                                 </value>
                                                 <next>
-                                                  <block type="movement_forward" id="90">
+                                                  <block type="movement_left" id="49">
                                                     <next>
-                                                      <block type="robot_delay" id="271" inline="true">
+                                                      <block type="robot_delay" id="277" inline="true">
                                                         <value name="DELAY">
-                                                          <block type="variables_get" id="437">
-                                                            <field name="VAR">forward</field>
+                                                          <block type="variables_get" id="458">
+                                                            <field name="VAR">turn</field>
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="movement_left" id="39">
+                                                          <block type="movement_forward" id="90">
                                                             <next>
-                                                              <block type="robot_delay" id="275" inline="true">
+                                                              <block type="robot_delay" id="271" inline="true">
                                                                 <value name="DELAY">
-                                                                  <block type="variables_get" id="465">
-                                                                    <field name="VAR">turn</field>
+                                                                  <block type="variables_get" id="437">
+                                                                    <field name="VAR">forward</field>
                                                                   </block>
                                                                 </value>
                                                                 <next>
-                                                                  <block type="movement_forward" id="80">
+                                                                  <block type="movement_left" id="39">
                                                                     <next>
-                                                                      <block type="robot_delay" id="273" inline="true">
+                                                                      <block type="robot_delay" id="275" inline="true">
                                                                         <value name="DELAY">
-                                                                          <block type="variables_get" id="444">
-                                                                            <field name="VAR">forward</field>
+                                                                          <block type="variables_get" id="465">
+                                                                            <field name="VAR">turn</field>
                                                                           </block>
                                                                         </value>
                                                                         <next>
-                                                                          <block type="movement_stop" id="381"></block>
+                                                                          <block type="movement_forward" id="80">
+                                                                            <next>
+                                                                              <block type="robot_delay" id="273" inline="true">
+                                                                                <value name="DELAY">
+                                                                                  <block type="variables_get" id="444">
+                                                                                    <field name="VAR">forward</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <next>
+                                                                                  <block type="movement_stop" id="381"></block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
                                                                         </next>
                                                                       </block>
                                                                     </next>
