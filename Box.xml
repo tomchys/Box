@@ -126,52 +126,61 @@
                                             <next>
                                               <block type="movement_stop" id="844">
                                                 <next>
-                                                  <block type="movement_stutter" id="671">
+                                                  <block type="robot_delay" id="1556" inline="true">
+                                                    <value name="DELAY">
+                                                      <block type="variables_get" id="1592">
+                                                        <field name="VAR">delay</field>
+                                                      </block>
+                                                    </value>
                                                     <next>
-                                                      <block type="robot_delay" id="1128" inline="true">
-                                                        <value name="DELAY">
-                                                          <block type="variables_get" id="1264">
-                                                            <field name="VAR">delay</field>
-                                                          </block>
-                                                        </value>
+                                                      <block type="movement_stutter" id="671">
                                                         <next>
-                                                          <block type="movement_stop" id="284">
+                                                          <block type="robot_delay" id="1128" inline="true">
+                                                            <value name="DELAY">
+                                                              <block type="variables_get" id="1264">
+                                                                <field name="VAR">delay</field>
+                                                              </block>
+                                                            </value>
                                                             <next>
-                                                              <block type="robot_delay" id="1397" inline="true">
-                                                                <value name="DELAY">
-                                                                  <block type="variables_get" id="1547">
-                                                                    <field name="VAR">delay</field>
-                                                                  </block>
-                                                                </value>
+                                                              <block type="movement_stop" id="284">
                                                                 <next>
-                                                                  <block type="movement_stutter" id="957">
+                                                                  <block type="robot_delay" id="1397" inline="true">
+                                                                    <value name="DELAY">
+                                                                      <block type="variables_get" id="1547">
+                                                                        <field name="VAR">delay</field>
+                                                                      </block>
+                                                                    </value>
                                                                     <next>
-                                                                      <block type="robot_delay" id="1134" inline="true">
-                                                                        <value name="DELAY">
-                                                                          <block type="variables_get" id="1253">
-                                                                            <field name="VAR">delay</field>
-                                                                          </block>
-                                                                        </value>
+                                                                      <block type="movement_stutter" id="957">
                                                                         <next>
-                                                                          <block type="movement_stop" id="1116">
+                                                                          <block type="robot_delay" id="1134" inline="true">
+                                                                            <value name="DELAY">
+                                                                              <block type="variables_get" id="1253">
+                                                                                <field name="VAR">delay</field>
+                                                                              </block>
+                                                                            </value>
                                                                             <next>
-                                                                              <block type="robot_delay" id="1132" inline="true">
-                                                                                <value name="DELAY">
-                                                                                  <block type="variables_get" id="1242">
-                                                                                    <field name="VAR">delay</field>
-                                                                                  </block>
-                                                                                </value>
+                                                                              <block type="movement_stop" id="1116">
                                                                                 <next>
-                                                                                  <block type="movement_stutter" id="1126">
+                                                                                  <block type="robot_delay" id="1132" inline="true">
+                                                                                    <value name="DELAY">
+                                                                                      <block type="variables_get" id="1242">
+                                                                                        <field name="VAR">delay</field>
+                                                                                      </block>
+                                                                                    </value>
                                                                                     <next>
-                                                                                      <block type="robot_delay" id="1130" inline="true">
-                                                                                        <value name="DELAY">
-                                                                                          <block type="variables_get" id="1231">
-                                                                                            <field name="VAR">delay</field>
-                                                                                          </block>
-                                                                                        </value>
+                                                                                      <block type="movement_stutter" id="1126">
                                                                                         <next>
-                                                                                          <block type="movement_stop" id="1106"></block>
+                                                                                          <block type="robot_delay" id="1130" inline="true">
+                                                                                            <value name="DELAY">
+                                                                                              <block type="variables_get" id="1231">
+                                                                                                <field name="VAR">delay</field>
+                                                                                              </block>
+                                                                                            </value>
+                                                                                            <next>
+                                                                                              <block type="movement_stop" id="1106"></block>
+                                                                                            </next>
+                                                                                          </block>
                                                                                         </next>
                                                                                       </block>
                                                                                     </next>
