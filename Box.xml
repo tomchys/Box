@@ -28,7 +28,7 @@
                     <field name="VAR">turn</field>
                     <value name="VALUE">
                       <block type="math_number" id="25">
-                        <field name="NUM">1650</field>
+                        <field name="NUM">1655</field>
                       </block>
                     </value>
                     <next>
@@ -36,7 +36,7 @@
                         <field name="VAR">forward</field>
                         <value name="VALUE">
                           <block type="math_number" id="38">
-                            <field name="NUM">2000</field>
+                            <field name="NUM">1500</field>
                           </block>
                         </value>
                         <next>
