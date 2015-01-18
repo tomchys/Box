@@ -28,7 +28,7 @@
                     <field name="VAR">turn</field>
                     <value name="VALUE">
                       <block type="math_number" id="25">
-                        <field name="NUM">1655</field>
+                        <field name="NUM">1660</field>
                       </block>
                     </value>
                     <next>
