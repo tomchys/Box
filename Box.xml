@@ -178,7 +178,80 @@
                                                                                               </block>
                                                                                             </value>
                                                                                             <next>
-                                                                                              <block type="movement_stop" id="1106"></block>
+                                                                                              <block type="movement_stop" id="1106">
+                                                                                                <next>
+                                                                                                  <block type="controls_repeat" id="1743" inline="true">
+                                                                                                    <value name="TIMES">
+                                                                                                      <block type="math_number" id="1823">
+                                                                                                        <field name="NUM">10</field>
+                                                                                                      </block>
+                                                                                                    </value>
+                                                                                                    <statement name="DO">
+                                                                                                      <block type="led_select" id="1628" inline="true">
+                                                                                                        <field name="ACTION">FLASH</field>
+                                                                                                        <value name="LED">
+                                                                                                          <block type="math_number" id="1710">
+                                                                                                            <field name="NUM">0</field>
+                                                                                                          </block>
+                                                                                                        </value>
+                                                                                                        <next>
+                                                                                                          <block type="led_select" id="1711" inline="true">
+                                                                                                            <field name="ACTION">FLASH</field>
+                                                                                                            <value name="LED">
+                                                                                                              <block type="math_number" id="1712">
+                                                                                                                <field name="NUM">1</field>
+                                                                                                              </block>
+                                                                                                            </value>
+                                                                                                            <next>
+                                                                                                              <block type="led_select" id="1719" inline="true">
+                                                                                                                <field name="ACTION">FLASH</field>
+                                                                                                                <value name="LED">
+                                                                                                                  <block type="math_number" id="1720">
+                                                                                                                    <field name="NUM">2</field>
+                                                                                                                  </block>
+                                                                                                                </value>
+                                                                                                                <next>
+                                                                                                                  <block type="led_select" id="1715" inline="true">
+                                                                                                                    <field name="ACTION">FLASH</field>
+                                                                                                                    <value name="LED">
+                                                                                                                      <block type="math_number" id="1716">
+                                                                                                                        <field name="NUM">3</field>
+                                                                                                                      </block>
+                                                                                                                    </value>
+                                                                                                                    <next>
+                                                                                                                      <block type="led_select" id="1717" inline="true">
+                                                                                                                        <field name="ACTION">FLASH</field>
+                                                                                                                        <value name="LED">
+                                                                                                                          <block type="math_number" id="1718">
+                                                                                                                            <field name="NUM">4</field>
+                                                                                                                          </block>
+                                                                                                                        </value>
+                                                                                                                        <next>
+                                                                                                                          <block type="led_select" id="1713" inline="true">
+                                                                                                                            <field name="ACTION">FLASH</field>
+                                                                                                                            <value name="LED">
+                                                                                                                              <block type="math_number" id="1714">
+                                                                                                                                <field name="NUM">5</field>
+                                                                                                                              </block>
+                                                                                                                            </value>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </statement>
+                                                                                                    <next>
+                                                                                                      <block type="movement_stop" id="1754"></block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
                                                                                             </next>
                                                                                           </block>
                                                                                         </next>
