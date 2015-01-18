@@ -181,12 +181,12 @@
                                                                                           <block type="oled_setcursor" id="1979" inline="true">
                                                                                             <value name="STARTX">
                                                                                               <block type="math_number" id="1980">
-                                                                                                <field name="NUM">18</field>
+                                                                                                <field name="NUM">26</field>
                                                                                               </block>
                                                                                             </value>
                                                                                             <value name="STARTY">
                                                                                               <block type="math_number" id="1981">
-                                                                                                <field name="NUM">18</field>
+                                                                                                <field name="NUM">26</field>
                                                                                               </block>
                                                                                             </value>
                                                                                             <next>
@@ -214,12 +214,12 @@
                                                                                                                   <block type="oled_setcursor" id="1984" inline="true">
                                                                                                                     <value name="STARTX">
                                                                                                                       <block type="math_number" id="1985">
-                                                                                                                        <field name="NUM">18</field>
+                                                                                                                        <field name="NUM">34</field>
                                                                                                                       </block>
                                                                                                                     </value>
                                                                                                                     <value name="STARTY">
                                                                                                                       <block type="math_number" id="1986">
-                                                                                                                        <field name="NUM">18</field>
+                                                                                                                        <field name="NUM">34</field>
                                                                                                                       </block>
                                                                                                                     </value>
                                                                                                                     <next>
